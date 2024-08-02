@@ -50,10 +50,13 @@ const requestHandler = (req, res)=>{
     }
 }
 
-// module.exports = {
+// module.exports = {                            // Method 1.
 //     handler : requestHandler,
 //     messageText : "The system is started"
 // };
 
-module.exports.handler = requestHandler;
+// exports.handler = requestHandler;            // Method 2.
+// exports.messageText = "The system is started";
+
+module.exports.handler = requestHandler;        // Method 3.
 module.exports.messageText = "The system is started";

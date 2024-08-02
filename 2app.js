@@ -1,6 +1,5 @@
 const http = require('http');
 
-const routes = require('./routes2');
 const routes2 = require('./routes2');
 
 console.log(routes2.messageText)
